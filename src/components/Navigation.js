@@ -53,12 +53,12 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-medium"></i>
                         </a>
                     </li>
@@ -68,7 +68,6 @@ const Navigation = () => {
                     <p>Aata-allah Rchidi - 2020</p>
                 </div>
             </div>
-
         </div>
     );
 };
