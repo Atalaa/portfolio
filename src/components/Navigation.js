@@ -7,7 +7,7 @@ const Navigation = () => {
             <div className="profile">
                 <div className="profileContent">
                     <img src="./media/Aata.png" alt="profilePic"/>
-                    <h3>Aata-allah Rchidi</h3>
+                    <h3>Aata Rchidi</h3>
                 </div>
             </div>
 
