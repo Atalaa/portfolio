@@ -1,6 +1,6 @@
 .notFound {
   @include verticalCenter;
-  height: 95vh;
+  height: 96vh; //problem on responsive
   max-width: 1200px;
   background: $color-3;
   border-radius: $borderRadius;

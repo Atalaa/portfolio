@@ -1,4 +1,5 @@
 .home {
+  height: 96vh; //problem on responsive
 
   .homeContent {
     background: linear-gradient(115deg, $color-1 50%, transparent 100%);
@@ -17,7 +18,7 @@
       background: url('../../media/ConUHackII.png') no-repeat center/cover;
       background-position: left;
       z-index: -1; //put image behind
-      filter: brightness(20%);
+      filter: brightness(30%);
     }
 
     .content {
