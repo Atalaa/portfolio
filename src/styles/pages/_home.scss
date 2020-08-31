@@ -1,16 +1,15 @@
 .home {
-  height: 96vh; //problem on responsive
-
+  // height: 96vh; //problem on responsive (added)
   .homeContent {
     background: linear-gradient(115deg, $color-1 50%, transparent 100%);
-    min-height: $minHeight;
+    min-height: $minHeight; 
     width: 100%;
-    min-height: 500px;
+    min-height: 500px; 
     border-radius: $borderRadius;
     position: relative;
     overflow: hidden;
 
-    &:after { //'after' element of homeContent 
+    &:after { //'after' is element of homeContent 
       content: '';
       position: absolute; //to place it as I want
       height: 100%;

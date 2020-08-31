@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-$font-1: 'Russo One', cursive;
-// $font-1: 'Nova Round', cursive;
+// $font-1: 'Russo One', cursive;
+$font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
@@ -33,9 +33,9 @@ $minHeight: 95vh;
 }
 
 body {  
-  background-image: linear-gradient(to right bottom, #9CECFB, #65C7F7, #0052D4);
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-image: linear-gradient(to right bottom, #9CECFB, #65C7F7, #0052D4);
+  // background-size: cover;
+  // background-repeat: no-repeat;
   margin: 1rem auto;
   max-width: 1200px;
   font-family: $font-1;
