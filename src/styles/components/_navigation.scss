@@ -8,8 +8,11 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 350px 1fr 108px; //fr is flexible
-  grid-template-areas: "1" "2" "3";
+  grid-template-rows: 300px 1fr 108px; //fr is flexible
+  grid-template-areas: 
+    "1"
+    "2" 
+    "3";
 
   .profile {
     grid-area: 1 ;
@@ -30,6 +33,7 @@
       img {
         border-radius: 50%;
         box-shadow: 0 0 0 4px $color-3, 0 0 0 8px $color-4, 0 0 0 12px $color-2;
+        width: 70%; //aata
       }
 
       h3 {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProgressBar = (props) => {
-  console.log(props);
+  console.log('progressbar',props);
 
   return (
     <div className={props.className}>
@@ -20,7 +20,9 @@ const ProgressBar = (props) => {
             
             return(
               <div key={item.id} className="languagesList">
-                <li>{item.value}</li>
+                <ul>
+                  <li>{item.value}</li>
+                </ul>
                 <div className="progressBar" style={{width:progressBar}}></div>
               </div>
             )
