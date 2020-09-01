@@ -7,20 +7,22 @@ const Languages = () => {
     {id:1, value: "Javascript", exp:1.9},
     {id:2, value: "Java", exp:1.5},
     {id:3, value: "MongoDB", exp:0.5},
-    {id:4, value: "Css", exp:1.7}
+    {id:4, value: "Css", exp:1.8}
   ]
-
   let frameworks = [
     {id:1, value: "React", exp:1},
     {id:2, value: "Bootstrap", exp:1.5},
-    {id:3, value: "Sass", exp:1.8}
+    {id:3, value: "Sass", exp:1.2},
+    {id:4, value: " Selenium Webdriver", exp:.7}
   ]
 
-  const [language, setLanguage] = useState(languages);
-  const [framework, setFramework] = useState(frameworks);
 
+
+  const [language] = useState(languages);
+  const [framework] = useState(frameworks);
+  
   return (
-    <div className="languagesNframeworks">
+    <div className="languagesNframeworks">  
       <ProgressBar 
         languages={language}
         className="languagesDisplay"

@@ -14,10 +14,10 @@ const Home = () => {
                     <h2>
                         <Typed 
                             strings={["Front-End Developer", "Passionate Developer", "Enjoy my portfolio!"]}
-                            typeSpeed={95}
+                            typeSpeed={68}
                             backSpeed={10}
                             backDelay={300}
-                            startDelay={1000}
+                            startDelay={100}
                             loop
                             smartBackspace
                         />
