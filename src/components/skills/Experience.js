@@ -13,7 +13,7 @@ const Experience = () => {
             <li>Developed and maintained 70% of Shopify E-commerce websites with JavaScript, Liquid.</li>
             <li>Designed and styled 100% of webpages with HML5, CSS3, Sass.</li>
             <li>Experience with React.</li>
-            <li>Familiarity with agile soRware development.</li>
+            <li>Familiarity with agile software development.</li>
           </ul>
         </div>
       </div>

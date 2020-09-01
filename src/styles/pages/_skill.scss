@@ -78,7 +78,7 @@
           color: $color-1;
         }
         .progressBar {
-          height: .4rem;
+          height: .35rem;
           background: transparent;
           border-radius: 50px;
           margin-top: .2rem;
@@ -89,9 +89,10 @@
             background: yellowgreen;
             position: absolute;
             border-radius: 50px;
-            height: .4rem;
+            height: .35rem;
             width: 0;
             animation: progressbar 2s ease-out forwards;
+            
 
             @keyframes progressbar {
               to {
@@ -157,7 +158,8 @@
         display: flex;
         width: 80%;
         height: 100%;
-        margin: 0 auto;
+        // margin: 0 auto;
+        margin: 1rem auto 0;
         justify-content: space-between;
 
         ul {
@@ -178,6 +180,7 @@
       ul {
         height: 80%;
         display: grid;
+        margin-top: 1rem;
 
         li {
           i {

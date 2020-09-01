@@ -14,10 +14,6 @@ const Hobbies = () => {
           <span>Child Care</span>
         </li>
         <li className="hobby">
-          <i className="fas fa-dumbbell"></i>
-          <span>Workout</span>
-        </li>
-        <li className="hobby">
           <i className="fas fa-plane-departure"></i>
           <span>Traveling</span>
         </li>
