@@ -4,18 +4,18 @@ import Projects from './Projects';
 
 const ProjectsList = () => {
   return (
-    <div className="projectsContent">
+    <div className="projectContent">
       <ul className="radioDisplay">
 
       </ul>
 
-      <div className="proj">
+      <div className="projectsList">
         {portfolioData.map(item => {
-            
+
           return (
             <Projects 
               key={item.id}
-              item={item}
+              items={item}
             />
           )})
         }

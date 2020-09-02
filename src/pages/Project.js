@@ -5,7 +5,7 @@ import ProjectsList from '../components/project/ProjectsList';
 
 const Project = () => {
     return (
-        <div className="projects">
+        <div className="project">
             <Navigation />
             <ProjectsList />
         </div>
