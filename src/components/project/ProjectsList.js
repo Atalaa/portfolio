@@ -10,7 +10,8 @@ const ProjectsList = () => {
       </ul>
 
       <div className="projectsList">
-        {portfolioData.map(item => {
+        {
+          portfolioData.map(item => {
 
           return (
             <Projects 

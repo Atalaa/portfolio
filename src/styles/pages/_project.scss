@@ -135,13 +135,21 @@
     .infos {
       grid-area: 4;
       color: $color-4;
-      cursor: pointer;
+      // cursor: pointer;
       font-size: 1.5rem;
       @include verticalCenter;
-      transition: .2s;
+      // transition: .2s;
+      // &:hover {
+      //   transform: scale(1.1);
+      // }
 
-      &:hover {
-        transform: scale(1.1);
+      //aat
+      .fas, .fa-info-circle{
+        cursor: pointer;
+        transition: .3s;
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
     .showInfos {
@@ -206,9 +214,10 @@
     }
   }
 }
+
 @media (max-width: 650px) and (min-width: 521px){
-  .portfolioContent {
-    .project {
+  .projectContent {
+    .projects {
       width: 49% !important;
 
       i {
@@ -224,15 +233,22 @@
   .radioDisplay {
     display: none !important;
   }
-  .portfolioContent {
+  .projectContent {
     grid-template-rows: 1fr !important;
 
-    .project {
+    .projects {
       grid-template-rows: 30px 40px 80px 40px !important;
       width: 98% !important;
 
       img {
         height: 100% !important;
+      }
+
+      .infosContent {
+        width: 100% !important;
+      }
+      .demoCode, .sourceCode {
+        display: flex;
       }
     }
   }

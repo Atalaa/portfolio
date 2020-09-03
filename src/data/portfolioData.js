@@ -3,55 +3,61 @@ const portfolioData = [
     id: 1,
     name: 'Back to the Future',
     languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-sass'],
-    source: 'http://www.github.com',
+    languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-sass'],
+    source: 'https://github.com/Atalaa/Back-to-the-Future',
+    demo: 'https://atalaa.github.io/Back-to-the-Future/',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: '../media/back-to-the-future-clipart.jpg'
+    picture: '../media/bttf.png'
   },
   {
     id: 2,
     name: 'Pig Dice Game',
     languages: ['javascript','react'],
-    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
-    source: 'http://www.github.com',
+    languagesIcons: ['fab fa-js-square','fab fa-css3-alt'],
+    source: 'https://github.com/Atalaa/Pig-Dice-Game',
+    demo: 'https://atalaa.github.io/Pig-Dice-Game/',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: '../media/js.png'
+    picture: '../media/dice.png'
   },
   {
     id: 3,
-    name: 'Book Search App',
-    languages: ['javascript','php','css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
+    name: 'Shopify iOS Challenge',
+    languages: ['javascript','react', 'css'],
+    languagesIcons: ['fab fa-swift'],
+    source: 'https://github.com/Atalaa/Shopify-Challenge-Summer-2019',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: '../media/js.png'
+    picture: '../media/shopify.png'
+  
   },
   {
     id: 4,
     name: 'Emojionary',
     languages: ['javascript','php','react'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
+    languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
+    source: 'https://github.com/Atalaa/Emojionary',
+    demo: 'https://atalaa.github.io/Emojionary/',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: '../media/js.png'
+    picture: '../media/emoji.png'
   },
   {
     id: 5,
     name: 'Restaurant Finder',
     languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js','fab fa-react', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
+    languagesIcons: ['fab fa-js-square','fab fa-react', 'fab fa-css3-alt'],
+    source: 'https://github.com/Atalaa/deliver-it',
+    demo: 'https://atalaa.github.io/deliver-it/',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: '../media/js.png'
+    picture: '../media/resto.png'
   },
   {
     id: 6,
-    name: 'Shopify iOS Challenge',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fab fa-swift'],
-    source: 'http://www.github.com',
+    name: 'Book Search App',
+    languages: ['javascript','php','css'],
+    languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
+    source: 'https://github.com/Atalaa/Book-search',
+    demo: 'https://atalaa.github.io/Book-search/',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: '../media/js.png'
+    picture: '../media/books.png'
   },
 ];
 
