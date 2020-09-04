@@ -6,14 +6,14 @@ const ProjectsList = () => {
 
   let radios = [
     {id:1, value: "javascript"},
-    {id:2, value: "css"},
+    {id:2, value: "css3"},
     {id:3, value: "react"},
     {id:4, value: "sass"},
     {id:5, value: "swift"},
   ];
 
-  const [radio] = useState(radios);
-  const [itemSelected, setItemSelected] = useState('javascript');
+  const [radio] = useState(radios); //fixed state
+  const [itemSelected, setItemSelected] = useState('javascript'); //dynamic state
 
   const handleRadio = (e) => {
     setItemSelected(e.target.value);
@@ -31,8 +31,8 @@ const ProjectsList = () => {
                   type="radio"
                   name="radio"
                   checked={item.value === itemSelected}
-                  id={item.value}
                   value={item.value}
+                  id={item.value}
                   onChange={handleRadio}
                 />
                 <label htmlFor={item.value}>{item.value}</label>
@@ -44,7 +44,9 @@ const ProjectsList = () => {
 
       <div className="projectsList">
         {
-          portfolioData.map(item => {
+          portfolioData
+          .filter(resultItem => resultItem.languages.includes(itemSelected))
+          .map(item => {
 
           return (
             <Projects 
