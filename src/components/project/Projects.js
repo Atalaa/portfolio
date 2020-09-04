@@ -6,7 +6,6 @@ const Projects = (props) => {
   const [showInfo, setShowInfo] = useState(false);
 
   const handleInfo = () => {
-    console.log(showInfo);
      return setShowInfo(!showInfo);
   }
 
@@ -18,7 +17,7 @@ const Projects = (props) => {
         )}
       </div>
       <h3>{props.items.name}</h3>
-      <img src={props.items.picture} alt="img" onClick={handleInfo}/>
+        <img src={props.items.picture} alt="img" onClick={handleInfo}/>
       <span className="infos">
         <i className="fas fa-info-circle" onClick={handleInfo}></i>
       </span>

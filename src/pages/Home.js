@@ -24,7 +24,7 @@ const Home = () => {
                     </h2>
 
                     <div className="resume">
-                        <a href="../../public/media/Aata-allah_resume.pdf" target="_blank">View resume</a>
+                        <a href="../media/Aata-allah_resume.pdf" target="_blank">View resume</a>
                     </div>
                 </div>
             </div>
