@@ -12,7 +12,7 @@ const portfolioData = [
   {
     id: 2,
     name: 'Pig Dice Game',
-    languages: ['javascript','css3'],
+    languages: ['javascript','css'],
     languagesIcons: ['fab fa-js-square','fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/Pig-Dice-Game',
     demo: 'https://atalaa.github.io/Pig-Dice-Game/',
@@ -32,7 +32,7 @@ const portfolioData = [
   {
     id: 4,
     name: 'Emojionary',
-    languages: ['javascript','react','css3'],
+    languages: ['javascript','react','css'],
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/Emojionary',
     demo: 'https://atalaa.github.io/Emojionary/',
@@ -42,7 +42,7 @@ const portfolioData = [
   {
     id: 5,
     name: 'Restaurant Finder',
-    languages: ['javascript','react','css3'],
+    languages: ['javascript','react','css'],
     languagesIcons: ['fab fa-js-square','fab fa-react', 'fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/deliver-it',
     demo: 'https://atalaa.github.io/deliver-it/',
@@ -52,7 +52,7 @@ const portfolioData = [
   {
     id: 6,
     name: 'Book Search App',
-    languages: ['javascript','react','css3'],
+    languages: ['javascript','react','css'],
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/Book-search',
     demo: 'https://atalaa.github.io/Book-search/',

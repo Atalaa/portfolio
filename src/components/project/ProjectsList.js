@@ -6,7 +6,7 @@ const ProjectsList = () => {
 
   let radios = [
     {id:1, value: "javascript"},
-    {id:2, value: "css3"},
+    {id:2, value: "css"},
     {id:3, value: "react"},
     {id:4, value: "sass"},
     {id:5, value: "swift"},
