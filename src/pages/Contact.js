@@ -10,9 +10,7 @@ const Contact = () => {
         <div className="contact">
             <Navigation />
             <div className="contactContent">
-                <div className="header">
-
-                </div>
+                <div className="header"></div>
                 <div className="contactBox">
                     <h1>Contact me</h1>
                     <ul>
@@ -24,8 +22,8 @@ const Contact = () => {
                         <li>
                             <i className="fas fa-mobile-alt"></i>
                             <CopyToClipboard text="4379838081">
-                                <span className="clickInput" 
-                                    onClick={() => { alert('Number copied!');}}>
+                                <span className="clickInput"
+                                    onClick={() => { alert('Number copied!'); }}>
                                     437 983 8081
                                 </span>
                             </CopyToClipboard>
@@ -34,8 +32,8 @@ const Contact = () => {
                         <li>
                             <i className="far fa-envelope"></i>
                             <CopyToClipboard text="atala.rchidi@gmail.com">
-                                <span className="clickInput" 
-                                    onClick={() => { alert('Email copied!');}}>
+                                <span className="clickInput"
+                                    onClick={() => { alert('Email copied!'); }}>
                                     atala.rchidi@gmail.com
                                 </span>
                             </CopyToClipboard>
@@ -43,12 +41,32 @@ const Contact = () => {
                     </ul>
                 </div>
 
-                <div className="socialMedia">
+                <div className="socialNetwork">
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                                <h4>LinkedIn</h4>
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                                <h4>LinkedIn</h4>
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                                <h4>LinkedIn</h4>
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                                <h4>LinkedIn</h4>
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
