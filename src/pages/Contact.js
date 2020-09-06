@@ -44,27 +44,27 @@ const Contact = () => {
                 <div className="socialNetwork">
                     <ul>
                         <li>
-                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/aata-allah-rchidi/" target="_blank" rel="noopener noreferrer">
                                 <h4>LinkedIn</h4>
                                 <i className="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-                                <h4>LinkedIn</h4>
-                                <i className="fab fa-linkedin"></i>
+                            <a href="https://github.com/Atalaa" target="_blank" rel="noopener noreferrer">
+                                <h4>Github</h4>
+                                <i className="fab fa-github"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-                                <h4>LinkedIn</h4>
-                                <i className="fab fa-linkedin"></i>
+                            <a href="#" rel="noopener noreferrer">
+                                <h4>Twitter</h4>
+                                <i className="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-                                <h4>LinkedIn</h4>
-                                <i className="fab fa-linkedin"></i>
+                            <a href="#" rel="noopener noreferrer">
+                                <h4>Medium</h4>
+                                <i className="fab fa-medium"></i>
                             </a>
                         </li>
                     </ul>

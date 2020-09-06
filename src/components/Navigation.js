@@ -53,12 +53,12 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="#" rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <a href="#" rel="noopener noreferrer">
                             <i className="fab fa-medium"></i>
                         </a>
                     </li>
