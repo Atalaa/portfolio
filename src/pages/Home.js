@@ -10,7 +10,6 @@ const Home = () => {
             <div className="homeContent">
                 <div className="content">
                     <h1>Aata Rchidi</h1>
-
                     <h2>
                         <Typed 
                             strings={["Front-End Developer", "Passionate Developer", "Enjoy my portfolio!"]}

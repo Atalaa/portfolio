@@ -56,13 +56,13 @@ const Contact = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="#" rel="noopener noreferrer">
+                            <a href="https://twitter.com/AataRchidi" target="_blank" rel="noopener noreferrer">
                                 <h4>Twitter</h4>
                                 <i className="fab fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#" rel="noopener noreferrer">
+                            <a href="https://medium.com/@Atalaa" target="_blank" rel="noopener noreferrer">
                                 <h4>Medium</h4>
                                 <i className="fab fa-medium"></i>
                             </a>
