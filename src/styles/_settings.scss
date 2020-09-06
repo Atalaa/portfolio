@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Kufam:wght@600&family=Mulish&display=swap');
 
+
 $font-1: 'Mulish', cursive;
 $font-2: 'Kufam', sans-serif;
 $font-3: 'Josefin Sans', serif;
@@ -24,7 +25,8 @@ $minHeight: 95vh;
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   margin: 0;
   padding: 0;
 }

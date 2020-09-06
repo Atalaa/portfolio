@@ -18,7 +18,8 @@
     padding: 1rem 2rem;
     margin: 0 auto;
     background: $color-1;
-    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
     box-shadow: $shadow;
 
     li {
@@ -33,7 +34,7 @@
       input[type="radio"]{
         visibility: hidden;
         position: relative;
-
+        
         &:before {
           content:'';
           visibility: visible;
