@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Atalaa.github.io/portfolio",
+  "homepage": "http://Atalaa.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "browserslist": "^4.14.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.2",
@@ -16,8 +17,8 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

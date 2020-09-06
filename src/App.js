@@ -12,6 +12,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
+        {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/" component={Home} />
         <Route exact path="/skills" component={Skill} />
         <Route exact path="/projects" component={Project} />
