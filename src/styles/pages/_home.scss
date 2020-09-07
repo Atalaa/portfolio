@@ -65,8 +65,8 @@
 @media screen and (max-width:580px){
   .homeContent {
     &:after {
-    background: url('../../media/ConUHackII.png') no-repeat 60% 50%/cover !important;
-    background-position: left !important;
+    background: url('../../media/ConUHackII.webp') no-repeat 60% 50%/cover !important;
+    // background-position: left !important;
     }
     h1 {
       font-size: 3rem !important;
