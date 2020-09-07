@@ -12,7 +12,6 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/portfolio/" component={Home} />
         <Route exact path="/portfolio/skills" component={Skill} />
         <Route exact path="/portfolio/projects" component={Project} />
