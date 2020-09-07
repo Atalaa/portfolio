@@ -6,7 +6,7 @@ const Navigation = () => {
         <div className="sidebar">
             <div className="profile">
                 <div className="profileContent">
-                    <img src="./media/Aata.png" alt="profilePic"/>
+                    <img src="./media/Aata.webp" alt="profilePic"/>
                     <h3>Aata Rchidi</h3>
                 </div>
             </div>
