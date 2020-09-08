@@ -24,7 +24,10 @@ const Home = () => {
                     </h2>
 
                     <div className="resume">
-                        <a href="./media/Aata-allah_resume.pdf" target="_blank">Download resume</a>
+                        <div className="container">
+                            <a href="./media/Aata-allah_resume.pdf" target="_blank">Download resume</a>
+                            <div className="gradient"></div>
+                        </div>
                     </div>
                 </div>
             </div>

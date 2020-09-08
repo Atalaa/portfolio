@@ -41,16 +41,62 @@
       }
 
       .resume {
-        a {
-          font-size: 1.5rem;
-          background: $color-3;
-          padding: 1rem 2rem;
-          border-radius: $borderRadius;
-          box-shadow: 0 5px 1px rgb(15, 15, 15);
-          transition: 0.2s ease;
+        .container {
+          //gradient
+          margin: auto;
+          position: relative;
+          height: 130px;
+          width: 20rem;
+          overflow: hidden; 
 
-          &:hover {
-            background: $color-4;
+          a, .gradient {
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+          }
+  
+          a {
+            font-size: 1.2rem;
+            font-family: $font-2;
+            text-align: center;
+            color: $color-3;
+            text-transform: uppercase;
+            letter-spacing: .5rem;
+            padding: 1rem 2rem;
+            z-index: 1; //gradient
+            background: $color-1;
+            width: 92%;
+            mix-blend-mode: multiply;
+            transition: 0.2s ease;
+            // border-radius: 8px;
+            // box-shadow: 0 5px 1px rgb(15, 15, 15);
+  
+            &:hover {
+              background: $color-1;
+              color: $color-4;
+            }
+          }
+  
+          .gradient {
+            height: 6.5rem;
+            width: 300%;
+            background: linear-gradient(90deg, rgb(4, 245, 233),rgb(4, 96, 245), rgb(230, 150, 85));
+            
+            animation: gradient 2.5s linear infinite alternate;
+          }
+        }
+        
+
+        @keyframes gradient {
+          0% {
+            transform: translate(-25%, -50%)
+          }
+          50% {
+            transform: translate(-50%, -50%)
+          }
+          100% {
+            transform: translate(-75%, -50%)
           }
         }
       }
