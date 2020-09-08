@@ -5,6 +5,7 @@ import Projects from './Projects';
 const ProjectsList = () => {
 
   let radios = [
+    {id:0, value: "all"},
     {id:1, value: "javascript"},
     {id:2, value: "css"},
     {id:3, value: "react"},
@@ -13,7 +14,7 @@ const ProjectsList = () => {
   ];
 
   const [radio] = useState(radios); //fixed state
-  const [itemSelected, setItemSelected] = useState('javascript'); //dynamic state
+  const [itemSelected, setItemSelected] = useState('all'); //dynamic state
 
   const handleRadio = (e) => {
     setItemSelected(e.target.value);
