@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3977a9a34319c005b802841e712f9cfc",
+    "revision": "c1ae88cce6c80dbe0948c4a0171c64c7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2b58c6b5aab80cdf557d",
-    "url": "/portfolio/static/css/main.194ce1c9.chunk.css"
+    "revision": "c29595c1ca36375fda51",
+    "url": "/portfolio/static/css/main.627bdec6.chunk.css"
   },
   {
     "revision": "c8babe697da1cf67321c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.1838d124.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b58c6b5aab80cdf557d",
+    "revision": "c29595c1ca36375fda51",
     "url": "/portfolio/static/js/main.7f4d5682.chunk.js"
   },
   {
@@ -26,5 +26,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6902d03ff1da42b75f0108591f4ac98d",
     "url": "/portfolio/static/media/ConUHackII.6902d03f.webp"
+  },
+  {
+    "revision": "5595decab2fe33a5128ad0de00464be7",
+    "url": "/portfolio/static/media/niagara_falls.5595deca.webp"
+  },
+  {
+    "revision": "3a76abb89ce1dddb40674458b77559b3",
+    "url": "/portfolio/static/media/shape.3a76abb8.svg"
   }
 ]);
