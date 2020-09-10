@@ -1,16 +1,25 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import vid1 from '../media/niag2.mp4';
 
 
 const Contact = () => {
-
-
     return (
         <div className="contact">
             <Navigation />
             <div className="contactContent">
-                <div className="header"></div>
+                
+
+                <div className="header">
+                    {/* <img src={image} alt="imageNiagara"/> */}
+                    <video className="bgvideo" autoPlay muted loop playsInline>
+                    <source src={vid1} type="video/mp4"/>
+                    {/* <source src={vid2} type="video/webm"/> */}
+                    Your browser does not support videos.
+                </video>  
+                </div> 
+
                 <div className="contactBox">
                     <h1>Contact me</h1>
                     <ul>

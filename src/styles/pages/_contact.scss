@@ -12,30 +12,33 @@
       "2"
       "3";
 
+      
     .header {
       grid-area: 1;
       width: 100%;
       position: relative;
-      background: $color-1;
       height: 340px;
 
-      &:before {
-        content: '';
+      .bgvideo{
         width: 100%;
-        height: 100%;
-        position: absolute;
-        background: url(../../media/niagara_falls.webp) no-repeat center/cover;
-        filter: grayscale(100%);
       }
 
+      // &:before {
+      //   content:'' ;
+      //   width: 100%;
+      //   height: 100%;
+      //   position: absolute;
+      //   // background: url('../../media/niagara_falls.webp') no-repeat center/cover;
+      //   // filter: grayscale(100%);
+      // }
+
       &:after {
-        content: '';
+        content:'';
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 80px;
-        background: url(../../media/shape.svg) no-repeat left/cover;
-
+        top: 55px;
+        // background: url('../../media/shape.svg') no-repeat left/cover;
       }
     }
 
