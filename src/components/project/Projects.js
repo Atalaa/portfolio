@@ -16,8 +16,9 @@ const Projects = (props) => {
           <i className={icon} key={icon}></i>
         )}
       </div>
+
       <h3>{props.items.name}</h3>
-        <img src={props.items.picture} alt="img" onClick={handleInfo}/>
+        <img src={props.items.picture} alt="imagePortfolio" onClick={handleInfo}/>
       <span className="infos">
         <i className="fas fa-info-circle" onClick={handleInfo}></i>
       </span>
