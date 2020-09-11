@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.23e289e4.chunk.css",
-    "main.js": "/portfolio/static/js/main.f977d3b9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f977d3b9.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.efba7c33.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.efba7c33.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.9a6c628e.chunk.js": "/portfolio/static/js/2.9a6c628e.chunk.js",
-    "static/js/2.9a6c628e.chunk.js.map": "/portfolio/static/js/2.9a6c628e.chunk.js.map",
+    "static/js/2.69f4e33f.chunk.js": "/portfolio/static/js/2.69f4e33f.chunk.js",
+    "static/js/2.69f4e33f.chunk.js.map": "/portfolio/static/js/2.69f4e33f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.219b19d6a60a4a6fd6ff2ac56fa6e56c.js": "/portfolio/precache-manifest.219b19d6a60a4a6fd6ff2ac56fa6e56c.js",
+    "precache-manifest.b518c3904da6f7fb769e564157e324fd.js": "/portfolio/precache-manifest.b518c3904da6f7fb769e564157e324fd.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.23e289e4.chunk.css.map": "/portfolio/static/css/main.23e289e4.chunk.css.map",
-    "static/js/2.9a6c628e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9a6c628e.chunk.js.LICENSE.txt",
+    "static/js/2.69f4e33f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.69f4e33f.chunk.js.LICENSE.txt",
+    "static/media/Aata.webp": "/portfolio/static/media/Aata.99274bdb.webp",
     "static/media/styles.scss": "/portfolio/static/media/shape.42e3052a.svg",
     "static/media/books.png": "/portfolio/static/media/books.fe36cd16.png",
+    "static/media/bttf.svg": "/portfolio/static/media/bttf.987de669.svg",
     "static/media/bttf.png": "/portfolio/static/media/bttf.ad551107.png",
     "static/media/dice.png": "/portfolio/static/media/dice.5ac5ed50.png",
     "static/media/emoji.png": "/portfolio/static/media/emoji.7b784f01.png",
@@ -24,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.9a6c628e.chunk.js",
+    "static/js/2.69f4e33f.chunk.js",
     "static/css/main.23e289e4.chunk.css",
-    "static/js/main.f977d3b9.chunk.js"
+    "static/js/main.efba7c33.chunk.js"
   ]
 }
