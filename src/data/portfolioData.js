@@ -1,4 +1,5 @@
 import bttf from '../media/bttf.png';
+import bttfsvg from '../media/bttf.svg';
 import dice from '../media/dice.png';
 import shopify from '../media/shopify.png';
 import emoji from '../media/emoji.png';
@@ -14,7 +15,7 @@ const portfolioData = [
     source: 'https://github.com/Atalaa/Back-to-the-Future',
     demo: 'https://atalaa.github.io/Back-to-the-Future/',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: bttf,
+    picture: bttfsvg,
   },
   {
     id: 2,

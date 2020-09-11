@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import me from '../media/Aata.webp';
 
 const Navigation = () => {
     return (
         <div className="sidebar">
             <div className="profile">
                 <div className="profileContent">
-                    <img src="./media/Aata.webp" alt="profilePic"/>
+                    <img src={me} alt="profilePic"/>
                     <h3>Aata Rchidi</h3>
                 </div>
             </div>
