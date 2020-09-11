@@ -1,10 +1,9 @@
-import bttf from '../media/bttf.png';
 import bttfsvg from '../media/bttf.svg';
-import dice from '../media/dice.png';
-import shopify from '../media/shopify.png';
-import emoji from '../media/emoji.png';
-import resto from '../media/resto.png';
-import books from '../media/books.png';
+import dice from '../media/dice.svg';
+import shopify from '../media/shopify.svg';
+import emoji from '../media/emoji.svg';
+import resto from '../media/resto.svg';
+import books from '../media/books.svg';
 
 const portfolioData = [
   {
