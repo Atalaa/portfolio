@@ -1,25 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.23e289e4.chunk.css",
-    "main.js": "/portfolio/static/js/main.e0080f6a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e0080f6a.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f977d3b9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f977d3b9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.d4212da9.chunk.js": "/portfolio/static/js/2.d4212da9.chunk.js",
-    "static/js/2.d4212da9.chunk.js.map": "/portfolio/static/js/2.d4212da9.chunk.js.map",
+    "static/js/2.9a6c628e.chunk.js": "/portfolio/static/js/2.9a6c628e.chunk.js",
+    "static/js/2.9a6c628e.chunk.js.map": "/portfolio/static/js/2.9a6c628e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.4eac04e7c400d57b93056dfa3e5edaae.js": "/portfolio/precache-manifest.4eac04e7c400d57b93056dfa3e5edaae.js",
+    "precache-manifest.219b19d6a60a4a6fd6ff2ac56fa6e56c.js": "/portfolio/precache-manifest.219b19d6a60a4a6fd6ff2ac56fa6e56c.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.23e289e4.chunk.css.map": "/portfolio/static/css/main.23e289e4.chunk.css.map",
-    "static/js/2.d4212da9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d4212da9.chunk.js.LICENSE.txt",
+    "static/js/2.9a6c628e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9a6c628e.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/portfolio/static/media/shape.42e3052a.svg",
+    "static/media/books.png": "/portfolio/static/media/books.fe36cd16.png",
+    "static/media/bttf.png": "/portfolio/static/media/bttf.ad551107.png",
+    "static/media/dice.png": "/portfolio/static/media/dice.5ac5ed50.png",
+    "static/media/emoji.png": "/portfolio/static/media/emoji.7b784f01.png",
     "static/media/niag2.webm": "/portfolio/static/media/niag2.30ad814a.webm",
-    "static/media/niag2.mp4": "/portfolio/static/media/niag2.66008f7e.mp4"
+    "static/media/niag2.mp4": "/portfolio/static/media/niag2.66008f7e.mp4",
+    "static/media/resto.png": "/portfolio/static/media/resto.aff7d39f.png",
+    "static/media/shopify.png": "/portfolio/static/media/shopify.ac87d329.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.d4212da9.chunk.js",
+    "static/js/2.9a6c628e.chunk.js",
     "static/css/main.23e289e4.chunk.css",
-    "static/js/main.e0080f6a.chunk.js"
+    "static/js/main.f977d3b9.chunk.js"
   ]
 }
