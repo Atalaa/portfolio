@@ -35,7 +35,7 @@
         visibility: hidden;
         position: relative;
         
-        &:before {
+        &::before {
           content:'';
           visibility: visible;
           position: absolute;
@@ -48,7 +48,7 @@
           cursor: pointer;
           transition: 0.3s;
         }
-        &:after {
+        &::after {
           content:'';
           visibility: visible;
           position: absolute;
@@ -64,7 +64,7 @@
           transform-origin: center;
         }
       }
-      input:checked:after {
+      input:checked::after {
         transform: scale(1.17) translate(-25%, -25%);
         top: 2px;
         left: -6px;

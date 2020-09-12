@@ -60,7 +60,7 @@
             width: 44%;
           }
 
-          &:nth-child(2):before, &:nth-child(3):before {
+          &:nth-child(2)::before, &:nth-child(3)::before {
             content: '';
             background: rgba(180, 179, 179, .5);
             position: absolute; //to put it where I want
@@ -84,7 +84,7 @@
           margin-top: .2rem;
           position: relative;
 
-          &:after {
+          &::after {
             content: '';
             background: yellowgreen;
             position: absolute;

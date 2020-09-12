@@ -9,7 +9,7 @@
     position: relative;
     overflow: hidden;
 
-    &:after { //'after' is element of homeContent - background pic come from here
+    &::after { //'after' is element of homeContent - background pic come from here
       content: '';
       position: absolute; //to place it as I want
       height: 100%;
@@ -64,7 +64,7 @@
 }
 @media screen and (max-width:580px){
   .homeContent {
-    &:after {
+    &::after {
     background: url('../../media/ConUHackII.webp') no-repeat 60% 50%/cover !important;
     // background-position: left !important;
     }
