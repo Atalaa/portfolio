@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "541a803b4f92f0343b6243208d196112",
+    "revision": "fe9694c0c024577c1cdd4fede4dc05a2",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "8f5cc4c41d3cae5ac2ce",
+    "revision": "c3fdaaaeffd2f4039438",
     "url": "/portfolio/static/css/main.23857826.chunk.css"
   },
   {
-    "revision": "5d274a3f28a2cc2d0efc",
-    "url": "/portfolio/static/js/2.69f4e33f.chunk.js"
+    "revision": "58e25857c7cf2b1755b3",
+    "url": "/portfolio/static/js/2.b047199c.chunk.js"
   },
   {
     "revision": "d0d6b5033fd77eb6038046252d67d3b7",
-    "url": "/portfolio/static/js/2.69f4e33f.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.b047199c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f5cc4c41d3cae5ac2ce",
-    "url": "/portfolio/static/js/main.96be123a.chunk.js"
+    "revision": "c3fdaaaeffd2f4039438",
+    "url": "/portfolio/static/js/main.fdec2a67.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
+  },
+  {
+    "revision": "b2f61a1b75a379cfce039bbbb3262424",
+    "url": "/portfolio/static/media/Aata-allah_resume.b2f61a1b.pdf"
   },
   {
     "revision": "99274bdb3969b467efbec6bca25e888e",
