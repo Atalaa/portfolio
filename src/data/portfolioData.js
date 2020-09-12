@@ -53,7 +53,7 @@ const portfolioData = [
     languagesIcons: ['fab fa-js-square','fab fa-react', 'fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/deliver-it',
     demo: 'https://atalaa.github.io/deliver-it/',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    info: 'Coming Soon...',
     picture: resto
   },
   {
@@ -63,7 +63,7 @@ const portfolioData = [
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/Book-search',
     demo: 'https://atalaa.github.io/Book-search/',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    info: 'Coming Soon...',
     picture: books
   },
 ];
