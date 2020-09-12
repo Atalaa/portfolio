@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Typed from 'react-typed';
+import resume from '../media/Aata-allah_resume.pdf';
 
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
                     </h2>
 
                     <div className="resume">
-                        <a href="./media/Aata-allah_resume.pdf" target="_blank">Download resume</a>
+                        <a href={resume} target="_blank" rel="noopener noreferrer">Download resume</a>
                     </div>
                 </div>
             </div>
