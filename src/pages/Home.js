@@ -14,7 +14,7 @@ const Home = () => {
                     {/* u2728 */}
                     <h2>
                         <Typed 
-                            strings={["Frontend developer", "Web developer", "Video gamer! "]}
+                            strings={["Frontend developer", "Web developer", "Video gamer"]}
                             typeSpeed={68}
                             backSpeed={10}
                             backDelay={300}
