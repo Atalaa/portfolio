@@ -11,10 +11,10 @@ const Home = () => {
             <div className="homeContent">
                 <div className="content">
                     <h1>Aata Rchidi</h1>
-                    
+                    {/* u2728 */}
                     <h2>
                         <Typed 
-                            strings={["Front-End Developer", "Passionate Developer", "Enjoy my portfolio!"]}
+                            strings={["Frontend developer", "Web developer", "Video gamer! "]}
                             typeSpeed={68}
                             backSpeed={10}
                             backDelay={300}
@@ -24,6 +24,9 @@ const Home = () => {
                         />
                     </h2>
 
+                    <h3>
+                        Fluent in French and English, I'm a passionate web developer with 2 years + of experience building and maintaining websites. I have knowledge of vanilla Javascript, React, Sass.
+                    </h3>
                     <div className="resume">
                         <a href={resume} target="_blank" rel="noopener noreferrer">Download resume</a>
                     </div>
