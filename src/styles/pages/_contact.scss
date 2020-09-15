@@ -137,8 +137,9 @@
         
           //ANIMATION
           @mixin networkAnim($timeout) {
-            animation: pop 1s forwards;
-            animation-delay: $timeout;
+            -webkit-animation: pop 1s $timeout forwards ;
+            -moz-animation: pop 1s $timeout forwards;
+            // animation-delay: $timeout;
           }
 
           @keyframes pop {
