@@ -6,7 +6,7 @@ const Experience = () => {
       <h3>Experience</h3>
 
       <div className="exp-1">
-        <h4>Frontend developer - Dream Payments</h4>
+        <h4>Web Developer - Dream Payments</h4>
         <h5>Sep 2020 - Present</h5>
         <div className="experienceContent">
           <ul>
@@ -17,7 +17,7 @@ const Experience = () => {
       </div>
 
       <div className="exp-2">
-        <h4>Frontend developer - PenguinPickUp</h4>
+        <h4>Frontend Developer - PenguinPickUp</h4>
         <h5>Jun 2019 - Jul 2020</h5>
         <div className="experienceContent">
           <ul>
@@ -28,7 +28,7 @@ const Experience = () => {
       </div>
 
       <div className="exp-3">
-        <h4>Frontend developer - FDM Group</h4>
+        <h4>Frontend Developer - FDM Group</h4>
         <h5>Nov 2018 - May 2019</h5>
         <div className="experienceContent">
           <ul>
