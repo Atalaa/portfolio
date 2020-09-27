@@ -33,36 +33,69 @@
         text-shadow: 3px 6px 2px $black;
       }
       h2 {
-        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
         // padding: 1.5rem 0 7rem;
-        padding: 1.5rem 0 3rem;
         color: $color-3;
         text-shadow: 1px 4px 1px $black;
       }
 
       h3 {
+        //change
+        line-height: 2.3;
+        //end change
+
         font-family: $font-1;
         font-size: 1.2rem;
-        padding: 0 8rem 7rem 0;
+        padding-right: 8rem;
         color: $color-3;
         text-shadow: 1px 4px 1px $black;
+      }
 
-
+      .infoHomePage {
+        margin-top: 8rem;
       }
 
       .resume {
+        //change
+        width: 10rem;
+        height: 10rem;
+        float: left;
+
+        //defines where the content floats around the element (circle in this case)
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
+
+        //put the circle
+        -webkit-clip-path: circle(48% at 50% 50%);
+        clip-path: circle(48% at 50% 50%);
+
+        //best way to move around an element that is floated -> use a transform, not margin 😱
+        transform: translateX(-1rem); 
+  
+        background: $color-3;
+        transition: 0.2s ease;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+
+        &:hover {
+          background: $color-5;
+        }
+        //end change
+
         a {
-          font-size: 1.5rem;
-          background: $color-3;
-          padding: 1rem 2rem;
-          border-radius: $borderRadius;
-          box-shadow: 0 5px 1px rgb(15, 15, 15);
-          transition: 0.2s ease;
+          font-size: 2rem;
+          // background: $color-3;
+          // padding: 2rem 1rem;
+          // border-radius: $borderRadius;
+          // box-shadow: 0 5px 1px rgb(15, 15, 15);
+          // transition: 0.2s ease;
 
 
-          &:hover {
-            background: $color-5;
-          }
+          // &:hover {
+          //   background: $color-5;
+          // }
         }
       }
     }
