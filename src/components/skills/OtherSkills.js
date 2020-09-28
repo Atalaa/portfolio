@@ -6,9 +6,9 @@ const OtherSkills = () => {
       <h3>Other Skills</h3>
       <div className="list">
         <ul>
-          <li><i className="fas fa-check-square"></i> JavaServer Faces</li>
+          <li><i className="fas fa-check-square"></i> React Router</li>
           <li><i className="fas fa-check-square"></i> Jira</li>
-          <li><i className="fas fa-check-square"></i> Amazon Web Services</li>
+          <li><i className="fas fa-check-square"></i> JavaServer Faces</li>
           <li><i className="fas fa-check-square"></i> Github</li>
         </ul>
         <ul>
