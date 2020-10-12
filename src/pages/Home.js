@@ -26,7 +26,7 @@ const Home = () => {
                     {/* <h3>
                         Fluent in French and English, I'm a passionate web developer with 2 years + of experience building and maintaining websites. I have knowledge of vanilla Javascript, React, Sass.
                     </h3> */}
-
+                            
 
                     <div className="infoHomePage">
                         <div className="resume">
