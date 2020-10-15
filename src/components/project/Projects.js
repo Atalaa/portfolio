@@ -6,14 +6,14 @@ const Projects = (props) => {
   const [showInfo, setShowInfo] = useState(false);
 
   const handleInfo = () => {
-     return setShowInfo(!showInfo);
+     return setShowInfo(!showInfo); 
   }
 
   return (
-    <div className="projects">
+    <div className="projects"> 
       <div className="icons">
         {props.items.languagesIcons.map(icon => 
-          <i className={icon} key={icon}></i>
+          <i className={icon} key={icon}></i> 
         )}
       </div>
 
