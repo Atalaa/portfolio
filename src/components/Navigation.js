@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import me from '../media/Aata.webp';
 
 const Navigation = () => {
+    const currentYear = new Date().getFullYear();
+
     return (
         <div className="sidebar">
             <div className="profile">
@@ -66,7 +68,7 @@ const Navigation = () => {
                 </ul>
 
                 <div className="signature">
-                    <p>Aata-allah Rchidi - 2020</p>
+                    <p>Aata-allah Rchidi - {currentYear}</p>
                 </div>
             </div>
         </div>
