@@ -3,21 +3,31 @@ import dice from '../media/dice.svg';
 import shopify from '../media/shopify.svg';
 import emoji from '../media/emoji.svg';
 import resto from '../media/resto.svg';
-import books from '../media/books.svg';
+import checklists from '../media/checklists.svg';
 
 const portfolioData = [
   {
     id: 1,
+    name: 'To-do list',
+    languages: ['all','javascript','react','sass'],
+    languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-sass'],
+    source: 'https://github.com/Atalaa/to-do-list',
+    demo: 'https://atalaa.github.io/to-do-list/',
+    info: 'A simple to-do list built with React, Sass.',
+    picture: checklists
+  },
+  {
+    id: 2,
     name: 'Back to the Future',
     languages: ['all','javascript','react','sass'],
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-sass'],
     source: 'https://github.com/Atalaa/Back-to-the-Future',
     demo: 'https://atalaa.github.io/Back-to-the-Future/',
     info: 'Back to the Future is a project that pays homage to this masterpiece. It gathers information about the film like the soundtrack, what the actors thought and even a memory game. The concepts learned in this project are how to use React components, connect them to each other, and style them.',
-    picture: bttfsvg,
+    picture: bttfsvg
   },
   {
-    id: 2,
+    id: 3,
     name: 'Pig Dice Game',
     languages: ['all','javascript','css'],
     languagesIcons: ['fab fa-js-square','fab fa-css3-alt'],
@@ -27,8 +37,8 @@ const portfolioData = [
     picture: dice
   },
   {
-    id: 3,
-    name: 'Shopify iOS Challenge',
+    id: 4,
+    name: 'Shopify iOS App',
     languages: ['all','swift'],
     languagesIcons: ['fab fa-swift'],
     source: 'https://github.com/Atalaa/Shopify-Challenge-Summer-2019',
@@ -37,7 +47,7 @@ const portfolioData = [
   
   },
   {
-    id: 4,
+    id: 5,
     name: 'Emojionary',
     languages: ['all','javascript','react','css'],
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
@@ -47,7 +57,7 @@ const portfolioData = [
     picture: emoji
   },
   {
-    id: 5,
+    id: 6,
     name: 'Restaurant Finder',
     languages: ['all','javascript','react','css'],
     languagesIcons: ['fab fa-js-square','fab fa-react', 'fab fa-css3-alt'],
@@ -55,17 +65,7 @@ const portfolioData = [
     demo: 'https://atalaa.github.io/deliver-it/',
     info: 'Coming Soon...',
     picture: resto
-  },
-  {
-    id: 6,
-    name: 'Book Search App',
-    languages: ['all','javascript','react','css'],
-    languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
-    source: 'https://github.com/Atalaa/Book-search',
-    demo: 'https://atalaa.github.io/Book-search/',
-    info: 'Coming Soon...',
-    picture: books
-  },
+  }
 ];
 
 export default portfolioData;
