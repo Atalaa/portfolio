@@ -10,7 +10,8 @@ const Projects = (props) => {
   }
 
   return (
-    <div className="projects"> 
+    <div className="projects"> {/*content*/}
+    
       <div className="icons">
         {props.items.languagesIcons.map(icon => 
           <i className={icon} key={icon}></i> 
@@ -18,10 +19,20 @@ const Projects = (props) => {
       </div>
 
       <h3>{props.items.name}</h3>
-        <img src={props.items.picture} alt="imagePortfolio" onClick={handleInfo}/>
+
+      <div className="card">{/*photo*/}
+        {/* <div className="card__face card__face--front">  */}
+          <img className="card__face card__face--front" src={props.items.picture} alt="imagePortfolio" onClick={handleInfo}/>
+        {/* </div> */}
+        <div className="card__face card__face--back">
+          Hello Aata
+        </div>
+      </div>
+
       <span className="infos">
         <i className="fas fa-info-circle" onClick={handleInfo}></i>
       </span>
+
 
       { //pop-up 
         showInfo && (

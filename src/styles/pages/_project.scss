@@ -77,6 +77,7 @@
       }
     }
   }
+
   .projectsList {
     height: 87vh;//aata
     grid-area: 2;
@@ -84,7 +85,43 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
+
+
+
     .projects {
+      perspective: 700px; //3D space
+      -moz-perspective: 700px;
+      position: relative;
+
+
+      .card {
+        transition: transform 1s ease-out;
+        transform-style: preserve-3d;
+
+        &:hover {
+          transform: rotateY(-180deg);
+        }
+
+        &__face{
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          position: absolute;
+
+          &--front {
+            
+          }
+
+          &--back {
+            transform: rotateY(180deg);
+          }
+        }
+      }
+
+     
+
+ 
+
+      
       background: $color-2;
       border-radius: $borderRadius;
       margin: 0.5rem 0 0 0;
@@ -120,7 +157,6 @@
       font-size: 1.65rem;
       @include verticalCenter;
       justify-content: left;
-
     }
     
     img {
@@ -135,6 +171,7 @@
       cursor: pointer;
       @include verticalCenter;
     }
+
     .infos {
       grid-area: 4;
       color: $color-4;
