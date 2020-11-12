@@ -13,7 +13,7 @@ const portfolioData = [
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-sass'],
     source: 'https://github.com/Atalaa/to-do-list',
     demo: 'https://atalaa.github.io/to-do-list/',
-    info: 'A simple to-do list built with React, Sass.',
+    info: 'A To-do list with CRUD functionalities and built with React Hooks.',
     picture: checklists
   },
   {
@@ -23,7 +23,7 @@ const portfolioData = [
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-sass'],
     source: 'https://github.com/Atalaa/Back-to-the-Future',
     demo: 'https://atalaa.github.io/Back-to-the-Future/',
-    info: 'Back to the Future is a project that pays homage to this masterpiece. It gathers information about the film like the soundtrack, what the actors thought and even a memory game. The concepts learned in this project are how to use React components, connect them to each other, and style them.',
+    info: 'Back to the Future is a tribute to the movie with a memory game.',
     picture: bttfsvg
   },
   {
@@ -33,7 +33,7 @@ const portfolioData = [
     languagesIcons: ['fab fa-js-square','fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/Pig-Dice-Game',
     demo: 'https://atalaa.github.io/Pig-Dice-Game/',
-    info: "Pig Dice is a simple dice game that can be played with two players of almost any age. It's a good math and probability activity. It's simple to learn and play. The concepts learned in this project are vanilla Javascript and jQuery.",
+    info: 'Pig Dice can be played with two players of almost any age.',
     picture: dice
   },
   {
@@ -42,7 +42,7 @@ const portfolioData = [
     languages: ['all','swift'],
     languagesIcons: ['fab fa-swift'],
     source: 'https://github.com/Atalaa/Shopify-Challenge-Summer-2019',
-    info: 'This project is part of a challenge that Shopify has created for its internship applications. The goal was to create an iOS mobile application that merchants could use in a fictional scenario. The concepts learned in this project are how to use the object oriented programming language Swift.',
+    info: 'This project is part of a challenge that Shopify has created for its internships.',
     picture: shopify
   
   },
@@ -53,7 +53,7 @@ const portfolioData = [
     languagesIcons: ['fab fa-js-square','fab fa-react','fab fa-css3-alt'],
     source: 'https://github.com/Atalaa/Emojionary',
     demo: 'https://atalaa.github.io/Emojionary/',
-    info: 'Emojionary is a dictionary for emojis, in the sense that it defines them. This project is simple and taught me how to work with the map function and props.',
+    info: 'Emojionary is a dictionary for emojis.',
     picture: emoji
   },
   {
