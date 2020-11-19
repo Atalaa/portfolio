@@ -14,7 +14,6 @@ const Languages = () => {
     {id:1, value: "React", exp:1.2},
     {id:2, value: "Bootstrap", exp:1},
     {id:3, value: "Sass", exp:1.1},
-    {id:4, value: " Selenium Webdriver", exp:.6},
     {id:5, value: " Material UI", exp:.8}
   ];
 
