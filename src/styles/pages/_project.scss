@@ -1,14 +1,14 @@
 .project {
   .projectContent {
+    min-height: $minHeight;
     width: 100%;
     display: grid;
-    min-height: $minHeight;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 1fr;
     grid-template-areas: 
-      "1"
-      "2";
+      "1" "2";
   }
+
 
   .radioDisplay {
     grid-area: 1;
@@ -79,19 +79,21 @@
   }
 
   .projectsList {
-    height: 87vh;//aata
+    height: 88.5vh;//aata
     grid-area: 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
     .projects {
+      border-radius: $borderRadius;
+
       perspective: 70rem; //3D space - always on the parent, div or block level element
       -moz-perspective: 70rem;
       position: relative;
 
       background: $color-2;
-      border-radius: $borderRadius2;
+      // border-radius: $borderRadius2;     
       margin: 0.5rem 0 0 0;
       text-align: center;
       width: 32%;
