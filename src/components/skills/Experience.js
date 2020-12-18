@@ -10,8 +10,8 @@ const Experience = () => {
         <h5>Sep 2020 - Present</h5>
         <div className="experienceContent">
           <ul>
-            <li>Design, develop and test web services, micro services and web based applications.</li>
-            <li>Assist in the development of mobile side of the application.</li>
+            <li>Develop and test web services, micro services and web based applications for TD and Chase Bank.</li>
+            <li>Experience with AODA Web Accessibility using Javascript, JavaServer Faces and AWS.</li>
           </ul>
         </div>
       </div>
